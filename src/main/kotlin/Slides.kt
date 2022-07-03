@@ -1,6 +1,7 @@
 import com.kslides.*
 import kotlinx.html.*
 
+
 fun main() {
 
   kslides {
@@ -26,7 +27,7 @@ fun main() {
       githubCornerHref = "https://github.com/kslides/kslides-template/"
       githubCornerTitle = "View presentation source on Github"
       enableMenu = true
-      theme = Theme.SOLARIZED
+      theme = Theme.SKY
 
       slideConfig {
         // Assign slide config defaults for all presentations
